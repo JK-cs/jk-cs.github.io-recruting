@@ -1,3 +1,27 @@
 .upperbar {
-    float:left;
+    display:flex;
+}
+
+.logo {
+    width:184px;
+    margin-left:300px;
+    margin-top:50px;
+}
+
+.지원하기 {
+    margin-left:40px;
+    margin-top:80px;
+}
+
+.결과확인 {
+    margin-left:40px;
+    margin-top:80px;
+}
+
+.homeBT {
+    margin-left:752px;
+    margin-top:58px;
+    background: url("../homeBT.png") no-repeat;
+    width:134px;
+    border-width:0px;
 }

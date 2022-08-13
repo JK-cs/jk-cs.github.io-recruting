@@ -6,11 +6,14 @@ function Main() {
         <link to = "/"></link>
     };
     return (
+        <div>
         <div className={styles.upperbar}>
-            <div><img className="logo" alt="logo" src="../logo.png" /></div>
-            <div className="지원하기">지원하기</div>
-            <div className="결과확인">결과확인</div>
-            <button onClick={goHome}>이화이언 홈</button>
+            <div><img className={styles.logo} alt="logo" src="../logo.png" /></div>
+            <div className={styles.지원하기}>지원하기</div>
+            <div className={styles.결과확인}>결과확인</div>
+            <button className={styles.homeBT} onClick={goHome}></button>
+        </div>
+        <div classname={styles.banner}></div>
         </div>
       );
 };
