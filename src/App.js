@@ -7,7 +7,7 @@ import {
 import Main from "./routes/Main";
 function App()
 {
-  return <Router>
+  return <Router basename={process.env.PUBLIC_URL}>
           <Switch>
           <Route path="/">
               <Main />
