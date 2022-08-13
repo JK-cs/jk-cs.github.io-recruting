@@ -8,12 +8,7 @@
     margin-top:50px;
 }
 
-.지원하기 {
-    margin-left:40px;
-    margin-top:80px;
-}
-
-.결과확인 {
+.upperBT {
     margin-left:40px;
     margin-top:80px;
 }
@@ -24,4 +19,27 @@
     background: url("../homeBT.png") no-repeat;
     width:134px;
     border-width:0px;
+}
+
+.banner {
+    width:1600px;
+    height:2966px;
+    margin-top:164px;
+    position: absolute; 
+    left: 50%; 
+    transform: translateX(-50%);
+
+}
+
+.lowerbar {
+    position: absolute; 
+    left: 50%; 
+    transform: translateX(-50%);
+}
+
+.lowerBT{
+    margin:100px;
+    position:relative;
+    top:3100px;
+    width:240px;
 }

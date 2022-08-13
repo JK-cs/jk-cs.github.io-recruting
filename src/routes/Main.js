@@ -7,13 +7,17 @@ function Main() {
     };
     return (
         <div>
-        <div className={styles.upperbar}>
+        <h3 className={styles.upperbar}>
             <div><img className={styles.logo} alt="logo" src="../logo.png" /></div>
-            <div className={styles.지원하기}>지원하기</div>
-            <div className={styles.결과확인}>결과확인</div>
+            <div className={styles.upperBT}>지원하기</div>
+            <div className={styles.upperBT}>결과확인</div>
             <button className={styles.homeBT} onClick={goHome}></button>
+        </h3>
+        <div><img className={styles.banner} alt="banner" src="img/banner.png" /></div>
+        <div className={styles.lowerbar}>
+        <button className={styles.lowerBT} onClick={goHome}>지원하기</button>
+        <button className={styles.lowerBT} onClick={goHome}>결과확인</button>
         </div>
-        <div classname={styles.banner}></div>
         </div>
       );
 };
