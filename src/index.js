@@ -4,8 +4,8 @@ import App from "./App";
 import "./styles.css";
 
 ReactDOM.render(
-  <React.StrictMode>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <App />
-  </React.StrictMode>,
+  </BrowserRouter>,
   document.getElementById("root")
 );
