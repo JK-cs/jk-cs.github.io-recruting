@@ -7,7 +7,7 @@ function Main() {
     };
     return (
         <div className={styles.upperbar}>
-            <img className="logo" alt="logo" src="../logo.png" />
+            <div><img className="logo" alt="logo" src="../logo.png" /></div>
             <div className="지원하기">지원하기</div>
             <div className="결과확인">결과확인</div>
             <button onClick={goHome}>이화이언 홈</button>
