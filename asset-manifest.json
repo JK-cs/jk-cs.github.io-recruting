@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.39fd562d.css",
-    "main.js": "/static/js/main.c1a208ae.js",
-    "index.html": "/index.html",
-    "main.39fd562d.css.map": "/static/css/main.39fd562d.css.map",
-    "main.c1a208ae.js.map": "/static/js/main.c1a208ae.js.map"
+    "main.css": "/JK-cs/jk-cs.github.io-recruting.git/static/css/main.8bde0afa.css",
+    "main.js": "/JK-cs/jk-cs.github.io-recruting.git/static/js/main.03570d57.js",
+    "index.html": "/JK-cs/jk-cs.github.io-recruting.git/index.html",
+    "main.8bde0afa.css.map": "/JK-cs/jk-cs.github.io-recruting.git/static/css/main.8bde0afa.css.map",
+    "main.03570d57.js.map": "/JK-cs/jk-cs.github.io-recruting.git/static/js/main.03570d57.js.map"
   },
   "entrypoints": [
-    "static/css/main.39fd562d.css",
-    "static/js/main.c1a208ae.js"
+    "static/css/main.8bde0afa.css",
+    "static/js/main.03570d57.js"
   ]
 }
