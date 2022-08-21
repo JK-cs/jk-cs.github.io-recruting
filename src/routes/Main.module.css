@@ -1,45 +1,95 @@
 .upperbar {
-    display:flex;
+    display: flex;
 }
 
 .logo {
-    width:184px;
-    margin-left:300px;
-    margin-top:50px;
+    width: 184px;
+    margin-left: 300px;
+    margin-top: 50px;
 }
 
 .upperBT {
-    margin-left:40px;
-    margin-top:80px;
+    margin-left: 40px;
+    margin-top: 80px;
 }
 
 .homeBT {
-    margin-left:752px;
-    margin-top:58px;
+    margin-left: 800px;
+    margin-top: 58px;
+    width: 134px;
+    border-width: 0px;
     background: url("../homeBT.png") no-repeat;
-    width:134px;
-    border-width:0px;
+    background-position: center center;
+    color: white;
 }
 
 .banner {
-    width:1600px;
-    height:2966px;
-    margin-top:164px;
-    position: absolute; 
-    left: 50%; 
-    transform: translateX(-50%);
+    width: 1600px;
+    height: 350px;
+    margin-top: 164px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 .lowerbar {
-    position: absolute; 
-    left: 50%; 
+    position: absolute;
+    left: 50%;
     transform: translateX(-50%);
 }
 
-.lowerBT{
-    margin:100px;
-    position:relative;
-    top:3100px;
-    width:240px;
+.lowerBT {
+    margin: 100px;
+    position: relative;
+    top: 3100px;
+    width: 240px;
+    height: 100px;
+    background: url("../Rectangle.png") no-repeat;
+    background-position: center center;
+    background-size: 150px;
+    border: 0px;
+}
+
+.submit {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 58px;
+    font-weight: normal;
+}
+
+.submit_txt {
+    margin-left: 540px;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.submit_form {
+    margin-left: 540px;
+    width: 840px;
+    height: 60px;
+    margin-top: 30px;
+    background-color: #F2F2F2;
+}
+
+.submitBT {
+    background: url("../submitBT.png") no-repeat;
+    margin-left: 510px;
+    margin-top: 100px;
+}
+
+.download {
+    color: #EC1468;
+    margin-left: 1266px;
+}
+
+.middlebar {
+    margin-top: 10px;
+    margin-left: 800px;
+}
+
+.scroll {
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 30px;
 }
