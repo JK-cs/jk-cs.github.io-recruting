@@ -6,27 +6,25 @@ import {
 } from "react-router-dom";
 import Main from "./routes/Main";
 import Submit from "./routes/Submit";
-import Volunteer from "./routes/Volunteer";
+import Apply from "./routes/Apply";
 import Upload from "./routes/Fileupload";
+import UpperBar from "./UpperBar";
+import Result from "./routes/Result";
 
 
 function App() {
-  return <Router >
-    <Switch>
-      <Route path="/submit">
-        <Submit />
-      </Route>
-      <Route path="/upload">
-        <Upload />
-      </Route>
-      <Route path="/volunteer">
-        <Volunteer />
-      </Route>
-      <Route path="/" >
-        <Main />
-      </Route>
-    </Switch>
-  </Router>;
+  return (
+    <div>
+      <UpperBar />
+      <div>
+        <Route path="/" component={Main} exact={true} />
+        <Route path="/apply" component={Apply} />
+        <Route path="/result" component={Result} />
+        <Route path="/submit" component={Submit} />
+        <Route path="/upload" component={Upload} />
+      </div>
+    </div>
+  );
 }
 
 export default App;

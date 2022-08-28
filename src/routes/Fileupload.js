@@ -3,6 +3,7 @@ import styles from "./Main.module.css";
 import UpperBar from "../UpperBar";
 import React from "react";
 import submit from "../submitBT.png";
+import 제출 from "../제출.png";
 
 
 function Upload() {
@@ -15,7 +16,6 @@ function Upload() {
 
     return (
         <div>
-            <UpperBar />
             <h2 className={styles.submit}>과제제출</h2>
             <div className={styles.submit_txt}><label htmlfor="Assignment">과제 업로드</label></div>
             <input className={styles.submit_form} value={Assignment} id="Assignment" />

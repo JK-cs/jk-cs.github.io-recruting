@@ -4,13 +4,6 @@ import styles from "./routes/Main.module.css";
 import logo from "./logo.png";
 import home from "./homeBT.png";
 
-const goHome = () => {
-    <Link to="/">Main</Link>
-}
-
-const submit = () => {
-    <Link to="/submit">Submit</Link>
-}
 
 function UpperBar() {
 
@@ -19,11 +12,13 @@ function UpperBar() {
     return (
         <div>
             <h3 className={styles.upperbar}>
-                <div><img className={styles.logo} alt="logo" src={logo} /></div>
-                <div className={styles.upperBT}>지원하기</div>
-                <div className={styles.upperBT} onClick={submit}>과제제출</div>
-                <div className={styles.upperBT}>결과확인</div>
-                <button className={styles.homeBT} onClick={goHome}>이화이언 홈</button>
+                <Link to="/" className={styles.logo} id="home">
+                    <img src={logo} alt="ewhaian" />
+                </Link>
+                <Link to="/apply" className={styles.upperBT}>지원하기</Link>
+                <Link to="/submit" className={styles.upperBT}>과제제출</Link>
+                <Link to="/result" className={styles.upperBT}>결과확인</Link>
+                <a href="http://www.ewhaian.com/" className={styles.homeBT} target='_blank'></a>
             </h3>
         </div>
     );

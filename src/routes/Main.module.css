@@ -2,15 +2,21 @@
     display: flex;
 }
 
+.main {
+    margin-top: 100px;
+}
+
 .logo {
     width: 184px;
-    margin-left: 300px;
+    margin-left: 270px;
     margin-top: 50px;
 }
 
 .upperBT {
     margin-left: 40px;
     margin-top: 80px;
+    text-decoration-line: none;
+    color: inherit;
 }
 
 .homeBT {
@@ -19,8 +25,8 @@
     width: 134px;
     border-width: 0px;
     background: url("../homeBT.png") no-repeat;
-    background-position: center center;
     color: white;
+    text-decoration-line: none;
 }
 
 .banner {
@@ -52,7 +58,7 @@
 }
 
 .submit {
-    text-align: center;
+    margin-left: 850px;
     margin-top: 100px;
     font-size: 58px;
     font-weight: normal;
@@ -70,12 +76,13 @@
     height: 60px;
     margin-top: 30px;
     background-color: #F2F2F2;
+    border: none;
 }
 
 .submitBT {
-    background: url("../submitBT.png") no-repeat;
-    margin-left: 510px;
     margin-top: 100px;
+    margin-left: 510px;
+    background: url("../check.png") no-repeat;
 }
 
 .download {
@@ -84,12 +91,25 @@
 }
 
 .middlebar {
-    margin-top: 10px;
-    margin-left: 800px;
+    margin-top: 100px;
+    margin-left: 100px;
 }
 
 .scroll {
     font-size: 20px;
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 400px;
+    text-decoration: underline;
+    text-decoration-color: #EC1468;
+    text-decoration-thickness: 3px;
+}
+
+.checkBT {
+    margin-top: 100px;
+    margin-left: 510px;
+}
+
+.applyBT {
+    margin-top: 100px;
+    margin-left: 510px;
 }
